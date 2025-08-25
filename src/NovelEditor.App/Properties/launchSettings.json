@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NovelEditor (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "NovelEditor (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

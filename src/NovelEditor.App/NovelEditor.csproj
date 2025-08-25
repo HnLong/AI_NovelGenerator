@@ -20,6 +20,8 @@
 	  <Content Include="Assets\icon\icon.ico" />
   </ItemGroup>
   <ItemGroup>
+    <None Remove="Pages\NovelDisplayPage.xaml" />
+    <None Remove="UserControls\NovelControl\NovelItemControl.xaml" />
     <None Remove="UserControls\WindowControl\CustomTitleBar.xaml" />
   </ItemGroup>
 
@@ -38,9 +40,20 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.4948" />
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.7.250606001" />
+    <PackageReference Include="MongoDB.Driver" Version="3.4.3" />
   </ItemGroup>
   <ItemGroup>
     <Page Update="UserControls\MainWindowControl\CustomTitleBar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Pages\NovelDisplayPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="UserControls\NovelControl\NovelItemControl.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>

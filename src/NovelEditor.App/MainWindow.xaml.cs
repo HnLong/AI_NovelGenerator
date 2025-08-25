@@ -8,6 +8,7 @@ using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
+using NovelEditor.Pages;
 using NovelEditor.Utils.WindowsAPI;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,8 @@ namespace NovelEditor
         public MainWindow()
         {
             this.InitializeComponent();
+
+            MainFrame.Navigate(typeof(NovelDisplayPage));
         }
     }
 }

@@ -20,5 +20,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <controls:CustomTitleBar x:Name="CustomTitleBarControl" Grid.Row="0"  VerticalAlignment="Top" Height="32"/>
+
+        <Frame x:Name="MainFrame" Grid.Row="1"/>
     </Grid>
 </Window>

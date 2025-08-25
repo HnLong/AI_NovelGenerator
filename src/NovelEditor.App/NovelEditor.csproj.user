@@ -16,5 +16,11 @@
     <None Update="Package.appxmanifest">
       <SubType>Designer</SubType>
     </None>
+    <Page Update="UserControls\NovelControl\NovelItemControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\NovelDisplayPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 </Project>

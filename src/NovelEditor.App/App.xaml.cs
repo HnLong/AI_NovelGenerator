@@ -6,7 +6,7 @@ namespace NovelEditor
 {
     public partial class App : Application
     {
-        public static Window? window;
+        public static Window? window { get; private set; }
 
         public App()
         {
